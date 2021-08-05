@@ -1,0 +1,5 @@
+name=input("Enter your file name:")
+fobj=open(name)
+f2=fobj.read()
+print(f2)
+fobj.close()
